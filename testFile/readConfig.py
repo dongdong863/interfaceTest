@@ -19,7 +19,6 @@ class ReadConfig():
         value = config.get('DATABASE',name)
         return value
 
-if __name__ == '__main':
 if __name__ == '__main__':
     print('HTTP中的baseurl值为：',ReadConfig().get_http('baseurl'))
     
