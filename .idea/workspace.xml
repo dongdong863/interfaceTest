@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="145c0423-7423-4deb-b429-070130fcfa9a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/testFile/readExcel.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testFile/readConfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/testFile/readConfig.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,8 +47,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testFile/readExcel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+            <state relative-caret-position="154">
+              <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -270,7 +268,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563282413353</updated>
-      <workItem from="1563282425013" duration="20020000" />
+      <workItem from="1563282425013" duration="20662000" />
     </task>
     <task id="LOCAL-00001" summary="create interfaceTest Project">
       <created>1563283002598</created>
@@ -321,11 +319,18 @@
       <option name="project" value="LOCAL" />
       <updated>1563448386939</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add readExcel.py">
+      <created>1563517477407</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1563517477407</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20020000" />
+    <option name="totallyTimeSpent" value="20662000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="622" y="115" width="1274" height="925" extended-state="0" />
@@ -364,7 +369,8 @@
     <MESSAGE value="add getpathInfo.py" />
     <MESSAGE value="modify readConfig.py" />
     <MESSAGE value="20190718 readConfig" />
-    <option name="LAST_COMMIT_MESSAGE" value="20190718 readConfig" />
+    <MESSAGE value="add readExcel.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="add readExcel.py" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/interfaceTest$getpathInfo.coverage" NAME="getpathInfo Coverage Results" MODIFIED="1563441743693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testFile" />
@@ -431,8 +437,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testFile/readExcel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        <state relative-caret-position="154">
+          <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
