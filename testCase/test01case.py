@@ -4,7 +4,7 @@ import json
 from common.configHttp import RunMain
 import geturlParams
 import urllib.pase
-import reaeExcel
+import readExcel
 
 url= geturlParams.geturlParams.get_Url()
 login_xls = readExcel.readExcel().get_xls('userCase.xls','login')
@@ -21,18 +21,18 @@ class testUserLogin(unittest,Testcase):
         self.case_name
 
     def setUp(self):
-        print(self.case_name+"²âÊÔ×¼±¸¿ªÊ¼")
+        print(self.case_name+"ï¿½ï¿½ï¿½ï¿½×¼ï¿½ï¿½ï¿½ï¿½Ê¼")
 
     def test01case(self):
         self.checkResult()
 
     def tesrDown(self):
-        print("²âÊÔ½áÊø£¬Êä³ölogÍê½á\n\n")
+        print("ï¿½ï¿½ï¿½Ô½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½logï¿½ï¿½ï¿½\n\n")
 
     def checkResult(self):
         url1= "http://www.xxx.com/login?"
         new_url= url1+self.query
-        data1 = dict(urllib.parse.parse_qsl(urllib.parse.urlsplit(new_url).query))# ½«Ò»¸öÍêÕûµÄURLÖÐµÄname=&pwd=×ª»»Îª{'name':'xxx','pwd':'bbb'}
+        data1 = dict(urllib.parse.parse_qsl(urllib.parse.urlsplit(new_url).query))# ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½URLï¿½Ðµï¿½name=&pwd=×ªï¿½ï¿½Îª{'name':'xxx','pwd':'bbb'}
         info = RunMain().run_main(self.method,url,data1)
         ss= json.loads(info)
 
