@@ -6,6 +6,7 @@ from apscheduler.schedulers.blocking importBlockingSchduler
 import unittest
 import common.HTMLTestRunner as HTMLTestRunner
 import pythoncom
+import common.log.logger
 
 
 
@@ -21,6 +22,9 @@ class AllTest:
         self.caseListFile = os.path.join(path,"caselist.txt")
         self.caseFile = os.path.join(path,"testCase")
         self.caseList=[]
+        log.info('resultPath',resultPath)
+        log.info('caseListFile',self.caseListFile)
+        log.info('caseList',self.caseList)
 
     def set_case_list(self):
 
